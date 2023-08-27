@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<style>
+    .flex-container{
+        display: flex;
+        border: 1px solid black;
+        margin-bottom: 30px;
+    }
+
+    .flex-item{
+        background-color: black;
+        color: white;
+        margin: 5px;
+        padding: 10px;
+        font-size: 30px;
+ 
+        
+    }
+
+
+    .flex-start{
+        justify-content:flex-start;
+    }
+
+    .flex-end{
+        justify-content:flex-end;
+    }
+
+    .flex-space-betwen{
+        justify-content:space-between;
+    }
+
+    .flex-around{
+        justify-content:space-around;
+    }
+
+    .flex-evenly{
+        justify-content:space-evenly;
+    }
+
+    
+    .flex-center{
+        justify-content:center;
+    }
+
+    .column{
+        flex-direction: column;
+        height: ;
+    }
+
+</style>
+<body>
+    <h1>start</h1>
+    <div class="flex-container flex-start" >
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item green">3</div>
+    </div>
+    <h1>flex-end</h1>
+    <div class="flex-container flex-end">
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item green">3</div>
+    </div>
+    <h1>space-between</h1>
+    <div class="flex-container flex-space-betwen">
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item green">3</div>
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item green">3</div>
+    </div>
+    <h1>space-around</h1>
+    <div class="flex-container flex-around">
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item green">3</div>
+  
+    </div>
+    <h1>space-evenly</h1>
+    <div class="flex-container flex-evenly ">
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item green">3</div>
+    </div>
+    <h1>center</h1>
+    <div class="flex-container flex-center">
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item green">3</div>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<style>
+    .flex-container{
+       display: flex;
+       height: 150px;
+       border: 1px solid black;
+        margin: 30px;
+        padding: 0;
+    }
+
+    .flex-item{
+        font-size: 30px;
+        height: 50%;
+        text-align: center;
+        min-width:180px;
+    }
+
+    .nowrap{
+        flex-wrap: nowrap;
+    }
+
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+
+    .flex-wrap-reverse{
+        flex-wrap: wrap-reverse;
+    }
+    
+    .blue{
+        background-color: black;
+        color:white;
+
+    }
+
+    .green{
+        background-color: green;
+        color:black;
+
+    }
+
+</style>
+<body>
+    <div class="flex-container nowrap">
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item blue">3</div>
+   
+
+    
+    </div>
+       
+    <div class="flex-container flex-wrap">
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item blue">3</div>
+   
+
+    
+    </div>
+
+    <div class="flex-container flex-wrap-reverse">
+        <div class="flex-item blue">1</div>
+        <div class="flex-item green">2</div>
+        <div class="flex-item blue">3</div>       
+    </div>
+       
+       
+  
+</body>
+</html>
